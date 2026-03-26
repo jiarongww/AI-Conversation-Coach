@@ -55,7 +55,7 @@ AI Conversation Coach 是一个面向真实聊天场景的 AI 应用，核心能
 ---
 
 ## 🧠 技术架构
-
+```
 User Input
    ↓
 Embedding（语义向量化）
@@ -67,11 +67,12 @@ Prompt Engineering（上下文注入）
 LLM Generation（Qwen API）
    ↓
 Streaming Output（逐 token 输出）
+```
 
 ---
 
 ## 📦 项目结构
-
+```
 aliyun_acp_py_stage1/
 ├── app/
 │   ├── llm/              # LLM 调用与 Prompt 模板
@@ -87,7 +88,7 @@ aliyun_acp_py_stage1/
 │   └── evaluate_rag.py   # RAG评测
 ├── requirements.txt
 └── main.py
-
+```
 ---
 
 ## ⚙️ 安装
@@ -184,17 +185,6 @@ python -m scripts.evaluate_rag \
 
 ---
 
-## 🪄 示例
-
-输入：
-
-我今天有点不开心
-
-输出：
-
-听起来今天有点不太顺，要不要讲讲发生了什么？
-
----
 
 ## 📌 后续优化方向
 
